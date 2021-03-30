@@ -20,7 +20,7 @@ spec:
     - name: GIT_EMAIL
       type: string
       description: Email for Git author
-      default: brasco1903@hotmail.com
+      default: brasco1903%40hotmail.com
     - name: GIT_NAME
       type: string
       description: Name for Git author
