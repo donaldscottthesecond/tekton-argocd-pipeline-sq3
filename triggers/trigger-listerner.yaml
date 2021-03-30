@@ -1,4 +1,4 @@
-apiVersion: tekton.dev/v1alpha1
+apiVersion: triggers.tekton.dev/v1alpha1
 kind: EventListener
 metadata:
   name: cicd
@@ -6,10 +6,10 @@ spec:
   serviceAccountName: pipeline
   triggers:
     - name: cicd-trig
-      binding:
-        name: binding-cicd
+      bindings:
+        - ref: binding-cicd
       template:
-        name: template-cicd
+          name: template-cicd
       interceptors:
         - cel:
             filter: "header.match('X-GitHub-Event', 'push') && body.ref == 'refs/heads/master'"
