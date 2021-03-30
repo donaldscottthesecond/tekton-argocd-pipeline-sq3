@@ -24,7 +24,7 @@ spec:
     - name: GIT_NAME
       type: string
       description: Name for Git author
-      default: Donald Scott II
+      default: donaldscottthesecond
   tasks:
     - name: task
       taskRef:
