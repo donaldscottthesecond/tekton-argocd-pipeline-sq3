@@ -12,7 +12,7 @@ spec:
     - name: GIT_REPOSITORY
       type: string
       description: Url without https:// for infra git repo
-      default: https://github.com/donaldscottthesecond/tekton-argocd-infra-sq3
+      default: github.com/donaldscottthesecond/tekton-argocd-infra-sq3
     - name: GIT_MANIFEST_DIR
       type: string
       description: directory with manifests
@@ -20,7 +20,7 @@ spec:
     - name: GIT_EMAIL
       type: string
       description: Email for Git author
-      default: brasco1903@hotmail.com
+      default: brasco1903%40hotmail.com
     - name: GIT_NAME
       type: string
       description: Name for Git author
