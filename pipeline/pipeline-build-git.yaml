@@ -12,7 +12,7 @@ spec:
     - name: GIT_REPOSITORY
       type: string
       description: Url without https:// for infra git repo
-      default: github.com/donaldscottthesecond/tekton-argocd-infra-sq3
+      default: github.com/donaldscottthesecond/tekton-argocd-infra-sq3.git
     - name: GIT_MANIFEST_DIR
       type: string
       description: directory with manifests
