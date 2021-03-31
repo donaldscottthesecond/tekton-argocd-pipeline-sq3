@@ -9,6 +9,7 @@ spec:
       default: master
     - name: gitrepositoryurl
       description: The git repository url
+      default: https://github.com/donaldscottthesecond/tekton-argocd-code-sq3
   resourcetemplates:
     - apiVersion: tekton.dev/v1alpha1
       kind: PipelineRun
