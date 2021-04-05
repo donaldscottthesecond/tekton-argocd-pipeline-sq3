@@ -26,6 +26,6 @@ spec:
               type: git
               params:
                 - name: revision
-                  value: $(params.gitrevision)
+                  value: master
                 - name: url
-                  value: $(params.gitrepositoryurl)
+                  value: https://github.com/donaldscottthesecond/tekton-argocd-code-sq3
