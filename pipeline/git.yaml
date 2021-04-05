@@ -5,7 +5,7 @@ metadata:
 spec:
   type: git
   params:
-    - name: revision
+    - name: gitrevision
       value: master
-    - name: url
+    - name: gitrepositoryurl
       value: https://github.com/donaldscottthesecond/tekton-argocd-code-sq3
